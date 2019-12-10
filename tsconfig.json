@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es5",
+      "lib": ["es2016", "DOM"],
+      "declaration": true,
+      "outDir": "./dist",
+      "experimentalDecorators": true
+    },
+    "include": [
+      "src/**/*"
+    ]
+  }
