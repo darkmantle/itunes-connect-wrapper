@@ -1,6 +1,8 @@
 
 ## Itunes Connect Wrapper
 
+[![CodeFactor](https://www.codefactor.io/repository/github/darkmantle/itunes-connect-wrapper/badge)](https://www.codefactor.io/repository/github/darkmantle/itunes-connect-wrapper)
+
 A basic wrapper around the [itunesconnectanalytics](https://github.com/JanHalozan/iTunesConnectAnalytics) package to simplify usage. So far limited functionality available - dimension filters and groups are not implemented.
 
 **Note: Testing does work but not included in source as an AppStore account is required.**
