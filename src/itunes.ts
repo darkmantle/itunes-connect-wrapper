@@ -12,14 +12,13 @@ export default class itunes {
 
             if (!username || !password) {
                 throw new Error("Username and password are required");
-                return;
             }
 
             this.instance = new Itunes(username, password, {
                 errorCallback: function (e) {
                     reject('Error logging in: ' + e);
                 },
-                successCallback: function (d) {
+                successCallback: function () {
                     resolve(true);
                 }
             });

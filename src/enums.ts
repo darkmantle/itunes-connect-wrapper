@@ -2,8 +2,7 @@ enum Frequency {
     day = 'DAY',
     week = 'WEEK',
     month = 'MONTH'
-};
-
+}
 
 enum Measures {
     installs =  'installs',
@@ -19,7 +18,7 @@ enum Measures {
     impressions =  'impressionsTotal',
     impressionsUnique =  'impressionsTotalUnique',
     pageViewUnique =  'pageViewUnique'
-};
+}
 
 enum Dimension {
     appVersion =  'appVersion',
